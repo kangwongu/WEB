@@ -3,15 +3,14 @@
 <head>
   <title>WEB1 - WEB</title>
   <meta charset="utf-8">
+<!-- CSS태그, 선택자(Selector), 효과(Declaration), 속성(Property), 값(Value)
+id선택자 > class선택자 > 태그 선택자
+-->
 
   <style>
     a {
       color:black;
-      text-decoration:none;
-    }
-    h1 {
-      font-size: 45px;
-      text-align: center;
+      text-decoration: none;
     }
     .saw {
       color:gray;
@@ -19,8 +18,13 @@
     #active {
       color:red;
     }
+    h1 {
+      font-size:60px;
+      text-align:center;
+    }
 
   </style>
+
   <!-- 방문자 추적 기능 -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156374573-1"></script>
@@ -37,10 +41,17 @@
   <h1><a href="index.html">WEB</a></h1>
   <ol>
     <li><a href="1.html" class="saw" >HTML</a></li>
-    <li><a href="2.html" class="saw" >CSS</a></li>
-    <li><a href="3.html" class="saw" >JavaScript</a></li>
+    <li><a href="2.html" class="saw" id="active" >CSS</a></li>
+    <li><a href="3.html"  >JavaScript</a></li>
   </ol>
-
+  <!--
+  <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+  <ol>
+    <li><a href="1.html" class="saw" ><font color="red">HTML</font></a></li>
+    <li><a href="2.html" class="saw" ><font color="red">CSS</font></a></li>
+    <li><a href="3.html" class="saw" ><font color="red">JavaScript</font></a></li>
+  </ol>
+-->
   <h2>WEB</h2>
   <p>
     <a href="https://en.wikipedia.org/wiki/Web"

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      /* grid설정 후, 템플릿컴럼스를 적용해 한줄 배치, 크기지정*/
+      #grid {
+        border:5px solid pink;
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+      div {
+        border:5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>ARTICLE</div>
+    </div>
+
+  </body>
+</html>
